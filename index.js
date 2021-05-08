@@ -37,7 +37,7 @@ const displayDate = date => {
 }
 
 
-const getUserLocation = async () => {
+/*const getUserLocation = async () => {
     let connection = await fetch('https://extreme-ip-lookup.com/json/');
     if (connection.ok){
         let response = await connection.json(),
@@ -118,4 +118,4 @@ window.addEventListener("load", () => {
     let dd = new Date();
     displayDate(dd);
     printWeatherInfo();
-})
+})*/
